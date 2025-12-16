@@ -52,7 +52,17 @@
     result.appendChild(scoreEl);
 
     const surprise = document.createElement('div'); surprise.className='surprise';
-    surprise.innerHTML = `🎉 SURPRISE POUR TOUS : chacun reçoit un <b>Joker Playlist</b> — vous pouvez chacun choisir <b>1 chanson</b> à ajouter à la playlist de la soirée !<br><br>Et en bonus, écoutez <b>La Reine des Neiges</b> : <a href="https://www.youtube.com/watch?v=TX7_yZLbqEs" target="_blank">Libérée, délivrée 🎵</a>`;
+    surprise.innerHTML = `🎉SURPRISE POUR TOUS : chacun reçoit un <b>Joker Playlist</b> — vous pouvez chacun choisir <b>1 chanson</b> à ajouter à la playlist de la soirée !
+<br><br><b>Suggestions YouTube (cliquez pour écouter) :</b>
+<ul class="playlist">
+  <li>https://www.youtube.com/watch?v=1T9b0cax6s4&list=RD1T9b0cax6s4&start_radio=1Suggestion 1</a></li>
+  <li>https://www.youtube.com/watch?v=sGlXYeiCz_4&list=RDsGlXYeiCz_4&start_radio=1Suggestion 2</a></li>
+  <li>https://www.youtube.com/watch?v=24pUKRQt7fk&list=RD24pUKRQt7fk&start_radio=1Suggestion 3</a></li>
+  <li>https://www.youtube.com/watch?v=7Z6G9g5s3bA&list=RD7Z6G9g5s3bA&start_radio=1Suggestion 4</a></li>
+  <li>https://www.youtube.com/watch?v=0-EF60neguk&list=PLAdgambY15YZ64z_AXa6NJMuDRRrr09biSuggestion 5</a></li>
+  <li>https://www.youtube.com/watch?v=eWupm_cePX8&list=RDeWupm_cePX8&start_radio=1Suggestion 6</a></li>
+</ul>
+<br><br>Et en bonus, écoutez <b>La Reine des Neiges</b> : <a href="https://www.youtube.com/watch?v=TX7_yZLbqEs" target="_blank">Libérée, délivrée 🎵</a>`;
     result.appendChild(surprise);
 
     const hr = document.createElement('hr'); result.appendChild(hr);
