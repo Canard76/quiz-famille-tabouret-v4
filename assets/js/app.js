@@ -55,7 +55,7 @@
     surprise.innerHTML = `🎉SURPRISE POUR TOUS : chacun reçoit un <b>Joker Playlist</b> — vous pouvez chacun choisir <b>1 chanson</b> à ajouter à la playlist de la soirée !
 <br><br><b>cliquez pour écouter (ignorer la Pubs !!) :</b>
 <ul class="playlist">
-  <b>Petit Papa Noël </b> : <a href="https://www.youtube.com/watch?v=sGlXYeiCz_4&list=RDsGlXYeiCz_4&start_radio=1" target="_blank">chanson de Noël pour petits avec paroles</a>
+  <li>Petit Papa Noël : <a href="https://www.youtube.com/watch?v=sGlXYeiCz_4&list=RDsGlXYeiCz_4&start_radio=1" target="_blank">chanson de Noël pour petits avec paroles</a>
   <br>
   <b>Ah les crocodiles </b> : <a href="https://www.youtube.com/watch?v=1T9b0cax6s4&list=RD1T9b0cax6s4&start_radio=1" target="_blank">Comptines et chansons</a>
   <br>
