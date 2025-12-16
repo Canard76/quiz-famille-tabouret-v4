@@ -21,6 +21,10 @@ body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Helveti
 .btn-secondary{background:#334155;color:#e6f2e6}
 .btn-outline{background:transparent;border:1px solid rgba(34,197,94,.45);color:#9fe3b8}
 .btn-outline:hover{border-color:#22c55e;color:#c4f5da}
+.playlist { margin: .6rem 0; padding-left: 1.1rem; }
+.playlist li { margin: .25rem 0; }
+.playlist a { color: #9fe3b8; }
+.playlist a:hover { color: #c4f5da; }
 .btn-danger{background:var(--danger);color:#fff}
 .score{font-size:1.2rem;margin:.6rem 0}
 .result{background:rgba(34,197,94,.1);border:1px solid rgba(34,197,94,.35);padding:1rem;border-radius:12px}
