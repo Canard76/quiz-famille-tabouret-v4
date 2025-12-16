@@ -46,7 +46,7 @@
     document.getElementById('result')?.remove();
     const result = document.createElement('div'); result.id='result'; result.className='card result';
 
-    const rank = (s=>{ if(s<=10) return 'Déconnexion totale 😅'; if(s<=20) return 'La connexion est là, on progresse !'; if(s<=30) return 'Super complicité !'; return 'Duo Parent/Ado au top ✨'; })(score);
+    const rank = (s=>{ if(s<=10) return 'Déconnexion totale, t'es pas la flèche du monde 😅'; if(s<=20) return 'La connexion est là, on progresse !'; if(s<=30) return 'Super complicité !'; return 'Duo Parent/Ado au top ✨'; })(score);
     const scoreEl = document.createElement('div'); scoreEl.className='score';
     scoreEl.textContent = `Score : ${score} / ${questions.length} — ${rank}`;
     result.appendChild(scoreEl);
