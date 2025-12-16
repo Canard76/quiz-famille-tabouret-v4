@@ -53,8 +53,10 @@
 
     const surprise = document.createElement('div'); surprise.className='surprise';
     surprise.innerHTML = `🎉SURPRISE POUR TOUS : chacun reçoit un <b>Joker Playlist</b> — vous pouvez chacun choisir <b>1 chanson</b> à ajouter à la playlist de la soirée !
-<br><br><b>Suggestions YouTube (cliquez pour écouter) :</b>
+<br><br><b>cliquez pour écouter :</b>
 <ul class="playlist">
+  <b>Petit Papa Noël </b> : <a href="https://www.youtube.com/watch?v=sGlXYeiCz_4&list=RDsGlXYeiCz_4&start_radio=1" target="_blank">chanson de Noël pour petits avec paroles</a>
+  <br>
   <li>https://www.youtube.com/watch?v=1T9b0cax6s4&list=RD1T9b0cax6s4&start_radio=1Suggestion 1</a></li>
   <li>https://www.youtube.com/watch?v=sGlXYeiCz_4&list=RDsGlXYeiCz_4&start_radio=1Suggestion 2</a></li>
   <li>https://www.youtube.com/watch?v=24pUKRQt7fk&list=RD24pUKRQt7fk&start_radio=1Suggestion 3</a></li>
